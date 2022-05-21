@@ -1,0 +1,20 @@
+server:
+  port: 7050
+
+spring:
+  
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+      
+
+    
+config: 
+    import:
+        -optional:configserver:http://localhost:8888
+              
+
+        
+
+
+      
