@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/pcservices
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  
